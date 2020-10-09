@@ -2,7 +2,7 @@ spring:
   application:
     name: payment-service
   datasource:
-    type: com.alibaba.druid.pool8.DruidDataSource            # 当前数据源操作类型
+    type: com.alibaba.druid.pool88.DruidDataSource            # 当前数据源操作类型
     driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
     url: jdbc:mysql://localhost:3306/cloud2020?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8&useSSL=false
     username: root
